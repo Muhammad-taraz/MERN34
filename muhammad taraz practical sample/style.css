@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 10px;
+    
+}
+.content{
+    display: flex;
+    size: 50%;
+    
+
+
+}
+.project{
+    font-weight: 192px;
+    text-align: center;
+    align-content: center;
+    width: 9200px;
+    border: 2px solid gray;
+    color: green;
+    
+    
+}
+img{
+    width: 112px;
+    height: 112px;
+}
+button{
+    width:112px ;
+    height: 92pxpx;
+}
+h4{
+    font-size: 25px;
+}
+h3{
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    gap:20px;
+    margin-right: 20px;
+}

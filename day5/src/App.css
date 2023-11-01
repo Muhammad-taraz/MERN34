@@ -1,0 +1,21 @@
+.circle
+{
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  border: 5px solid black;
+  justify-content: center;
+  
+}
+.wrap
+{
+  display: flex;
+  justify-content: center;
+}
+.container
+{
+  display: flex;
+  height: 92vh;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.container-1 {
+    display:grid;
+    padding:5px;
+    grid-gap:30px;
+    height: 55vh;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-4 {
+    display:grid;
+}
+.container-2 {
+  display: grid;
+  padding:20px;
+  grid-gap: 20px;
+  grid-template-rows: 1;
+  grid-template-columns:65% 30%
+
+   
+
+}
+.container-3{
+  display: grid;
+  grid-gap: 20px;
+  height:300px;
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+div{
+  border: 5px solid black;
+}
+
+
+
+
+

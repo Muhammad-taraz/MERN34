@@ -1,10 +1,18 @@
 const array = [5,12,4,11];
 function customEvery (array, callback){
-    const newArray = [];
+    let newArray = 0;
     for (let i=0; i<array.length; i++){
-        const result = callback (array[i]);
+        let result = callback (array[i]);
+        if (result) {
+            newArray+=1;
+        }
     }
-    return newArray;
+    if (array.length==newArray){
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 const isEven = (item) => {
     return item % 2 == 0;

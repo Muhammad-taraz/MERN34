@@ -7,6 +7,8 @@ const TodoSchema = new mongoose.Schema({
   text: String,
   status: { type: Boolean, default: false },
 });
+
+
 TodoSchema.methods.checkPassword = async function (plainPassword) {
   // console.log(this.password, "this password");
   const matched = await bcrypt.compare(plainPassword, this.password); // this method takes hash and the plain password to match according to the hash

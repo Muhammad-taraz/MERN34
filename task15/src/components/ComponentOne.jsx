@@ -8,6 +8,14 @@ export default function ComponentOne({ pageState, setPageState }) {
       <div>Component One</div>
       <div>
         <div> Parent State</div>
+        <button
+            onClick={() => {
+              setPageState([...pageState, pageState.length + 1]);
+            }}
+            className="bg-black p-1 text-white rounded-lg hover:opacity-80 "
+          >
+            Change Parent State
+          </button>
         <div className="flex flex-wrap ">
           {pageState.map((number, index) => (
             <img

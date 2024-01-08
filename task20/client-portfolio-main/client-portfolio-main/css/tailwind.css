@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.5rem;
+}
+
+/* Change size and transition on hover */
+::-webkit-scrollbar:hover {
+  transition: width 2s;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #3b35ad;
+  border-radius: 0.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #635bff;
+}
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-trueGray-900;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+}

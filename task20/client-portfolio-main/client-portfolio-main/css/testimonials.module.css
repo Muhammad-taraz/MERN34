@@ -1,0 +1,25 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+
+.videoContainer{
+	width: 400px;
+	height: 300px;
+}
+
+.companyHeading{
+	font-size: large;
+	font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .videoContainer {
+    width: 100%;
+		height: auto;
+  }
+	.companyHeading{
+		padding-bottom: 10px;
+	}
+}

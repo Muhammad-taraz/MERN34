@@ -1,0 +1,56 @@
+{
+  "name": "next-portfolio",
+  "version": "0.1.0",
+  "description": "Nextly Landing Page Template",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint 'pages/**/*.js' 'components/**/*.js'",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gituhb.com/web3templates/nextly-template"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "free"
+  ],
+  "author": "Surjith S M",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/css": "^11.10.6",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.6",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.17",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "aos": "^2.3.4",
+    "clsx": "^1.2.1",
+    "framer-motion": "^10.12.18",
+    "marked": "^5.1.1",
+    "next": "^13.3.1",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.10.1",
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.23",
+    "prettier": "2.8.8",
+    "tailwindcss": "^3.3.1"
+  }
+}

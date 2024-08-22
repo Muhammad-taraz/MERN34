@@ -1,0 +1,492 @@
+/* General Styles for Laptop */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 35px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.first-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 65px;
+}
+
+.first-image img {
+  width: 100%;
+  max-width: 100%;
+  height: 85%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-text {
+  position: absolute;
+  bottom: 85px;
+  left: 54px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.author {
+  position: absolute;
+  bottom: 65px;
+  left: 65px;
+  color: #fff;
+  font-size: 0.92rem;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 65px;
+}
+
+.left-section {
+  max-width: 65%;
+}
+
+.left-image-single {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-group {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+  height: auto;
+}
+
+.image-group img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-section {
+  max-width: 35%;
+  padding-left: 20px;
+}
+
+.right-section h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.right-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.right-section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.right-section a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.right-section img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.article-content {
+  max-width: 180px;
+}
+
+.right-section a:hover {
+  text-decoration: underline;
+}
+
+.article-content p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+}
+
+.call-to-action {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 65px;
+}
+
+.call-to-action img {
+  width: 100%;
+  max-width: 100%;
+  height: 25rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cta-content form {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-content input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.cta-content button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-content button:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* Responsive Styles for Tablet
+@media screen and (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .navbar {
+        margin-top: 15px;
+    }
+
+    .navbar a {
+        margin: 0 10px;
+    }
+
+    .navbar a:hover {
+    text-decoration: underline;
+}
+
+    .first-image {
+        margin: 20px;
+    }
+
+    .image-text {
+        font-size: 2rem;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .author {
+        bottom: 5px;
+        left: 10px;
+    }
+
+    .content-section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .left-section, .right-section {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .image-group {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .right-section ul {
+        padding-left: 0;
+    }
+
+    .right-section img {
+        width: 75px;
+        height: 75px;
+        margin-right: 10px;
+    }
+
+    .article-content {
+        max-width: 100%;
+    }
+
+    .call-to-action {
+        margin: 20px;
+    }
+
+    .call-to-action img {
+        height: auto;
+    }
+
+    .cta-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-content form {
+        flex-direction: column;
+    }
+
+    .cta-content input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .cta-content button {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+} */
+
+/* General Styles for mbl */
+@media screen and (max-width: 480px) {
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 7px 0;
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .title {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .navbar a {
+    margin: 3px 7px;
+    font-size: 1rem;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .first-image {
+    margin: 20px;
+  }
+
+  .image-text {
+    bottom: 20px;
+    left: 12px;
+    font-size: 1rem;
+  }
+
+  .author {
+    bottom: 15px;
+    left: 25px;
+    font-size: 0.5rem;
+  }
+
+  .content-section {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .right-section ul {
+    padding-left: 5px;
+  }
+
+  .right-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .article-content {
+    max-width: 100%;
+  }
+
+  .call-to-action {
+    margin: 20px;
+  }
+
+  .call-to-action img {
+    width: 100%;
+    max-width: 100%;
+    height: 12rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .cta-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .cta-content input,
+  .cta-content button {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .footer {
+    padding: 15px 0;
+  }
+}
+
+/*  General Styles for Desktop
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 85%;
+    }
+
+    .header {
+        padding: 50px 0;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+        
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+    .first-image {
+        margin: 80px;
+    }
+    
+    .first-image img {
+        height: 90%;
+    }
+
+    .image-text {
+        bottom: 100px;
+        left: 70px;
+        font-size: 4rem;
+    }
+
+    .author {
+        bottom: 80px;
+        left: 70px;
+        font-size: 1rem;
+    }
+
+    .content-section {
+        margin: 60px 80px;
+    }
+
+    .left-section {
+        max-width: 70%;
+    }
+
+    .right-section {
+        max-width: 30%;
+    }
+
+    .right-section h2 {
+        font-size: 2rem;
+    }
+
+    .article-content p {
+        font-size: 1rem;
+    }
+
+    .call-to-action {
+        margin: 80px;
+    }
+
+    .cta-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .cta-content input, .cta-content button {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+} */
